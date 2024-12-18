@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e8f4fc, #dde5eb);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Increased width */
+    margin: 50px auto;
+    padding: 30px; /* Increased padding for more space */
+    background: #001f3f; /* Navy Blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ffffff; /* White Text */
+}
+
+h1 {
+    color: #ff851b; /* Orange */
+    margin-bottom: 20px; /* More space below the title */
+}
+
+p {
+    color: #cfd8e3; /* Light Gray for contrast */
+    margin-bottom: 30px; /* More space below the subtitle */
+}
+
+label {
+    display: block;
+    margin-top: 20px; /* Increased spacing between fields */
+    text-align: left;
+    color: #ff851b; /* Orange */
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    width: 100%; /* Full width of container */
+    padding: 12px; /* Slightly larger padding for better usability */
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ff851b; /* Orange Border */
+    background: #eaf3fc; /* Light Background for inputs */
+    color: #001f3f; /* Navy Blue Text */
+    font-size: 16px; /* Larger text */
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #ff851b; /* Highlight with Orange */
+    background: #ffffff; /* White background on focus */
+}
+
+button {
+    background: #ff851b; /* Orange */
+    color: #ffffff; /* White Text */
+    font-size: 18px; /* Slightly larger font */
+    border: none;
+    margin-top: 30px;
+    padding: 12px; /* Increased padding */
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #ff6f1b; /* Darker Orange on Hover */
+}
+
+#responseMessage {
+    margin-top: 20px;
+    display: none;
+    padding: 20px; /* Increased padding */
+    background: #001f3f; /* Navy Blue */
+    color: #ffffff; /* White Text */
+    border: 1px solid #ff851b; /* Orange Border */
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px; /* Slightly larger text for better readability */
+}
